@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.head{
+    background-color: grey;
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color:white ;
+}
+.company{
+font-size: 50px;
+width: 50%;
+}
+.info-parent{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+.info-child{
+    margin: 20px;
+
+}
+
+.black{
+    background-color: black;
+    height: 25%;
+    color: tan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;   
+}
+
+.box-parent{
+    /* background-color: whitesmoke; */
+    height:35% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.box-green{
+background-color: yellowgreen;
+height: 200px;
+width: 250px;
+border-radius: 15%;
+margin: 10px;
+
+}
+.box-yello{
+background-color: yellow;
+height: 200px;
+width: 500px;
+
+}
+
+.text-img{
+    /* background-color: tan ; */
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote{
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.photo{
+height: 150px;
+width: 150px;
+}
+
+.foot{
+    background-color:cornflowerblue ;
+    height: 15%;
+}
